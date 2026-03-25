@@ -4,7 +4,8 @@ global:
 
 scrape_configs:
   - job_name: soundverse
+    scheme: https
     static_configs:
       - targets:
-          - host.docker.internal:8000
+          - soundverse-assignment-nz64.onrender.com
     metrics_path: /metrics
