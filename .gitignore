@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+temp/
+temp*/
+# Environment
+.env
+
+# Local SQLite when FORCE_SQLITE_LOCAL=1
+soundverse.db
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
